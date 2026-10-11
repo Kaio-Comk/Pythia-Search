@@ -1,18 +1,18 @@
 <div align="center">
 
-# 🔎 fuzzytitles
+# 🔎 Pythia-Search
 ### Forgiving, Fast & Database-Agnostic Title Search for Media, Catalogs & E-Commerce
 
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg?logo=python&logoColor=white)](https://python.org)
-[![Database Agnostic](https://img.shields.io/badge/Database-Agnostic%20(Supabase%20%7C%20Postgres%20%7C%20SQLite)-green.svg)](https://github.com/Kaio-Comk/fuzzytitles)
+[![Database Agnostic](https://img.shields.io/badge/Database-Agnostic%20(Supabase%20%7C%20Postgres%20%7C%20SQLite)-green.svg)](https://github.com/Kaio-Comk/Pythia-Search)
 [![Concurrency](https://img.shields.io/badge/Concurrency-Parallel%20Worker%20Threads-purple.svg)](https://docs.python.org/3/library/concurrent.futures.html)
-[![Multilingual](https://img.shields.io/badge/Stopwords-Multilingual%20(PT%20%7C%20EN%20%7C%20ES%20%7C%20FR)-orange.svg)](https://github.com/Kaio-Comk/fuzzytitles)
+[![Multilingual](https://img.shields.io/badge/Stopwords-Multilingual%20(PT%20%7C%20EN%20%7C%20ES%20%7C%20FR)-orange.svg)](https://github.com/Kaio-Comk/Pythia-Search)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Stop losing users to typos, accents, missing words, and trailing years.**  
 *Plug in your existing database query function and get instant, parallel, ranked fuzzy search.*
 
-[The Problem](#-why-fuzzytitles) • [How It Works](#-search-pipeline) • [Installation](#-installation) • [Quickstart](#-quickstart) • [PostgreSQL Trigrams](#-typo-tolerance-with-postgresql-trigrams) • [Contributing](#-contributing)
+[The Problem](#-why-pythia-search) • [How It Works](#-search-pipeline) • [Installation](#-installation) • [Quickstart](#-quickstart) • [PostgreSQL Trigrams](#-typo-tolerance-with-postgresql-trigrams) • [Contributing](#-contributing)
 
 </div>
 
@@ -59,7 +59,7 @@ flowchart TD
 ## 📦 Installation
 
 ```bash
-pip install git+https://github.com/Kaio-Comk/fuzzytitles.git
+pip install git+https://github.com/Kaio-Comk/Pythia-Search.git
 ```
 
 ---
@@ -142,5 +142,5 @@ pytest -v
 Distributed under the **MIT License**. See `LICENSE` for details.
 
 <div align="center">
-  <sub>Built with ❤️ by Kaio Lima. If fuzzytitles improved your search experience, please star ⭐ the project!</sub>
+  <sub>Built with ❤️ by Kaio Lima. If Pythia-Search improved your search experience, please star ⭐ the project!</sub>
 </div>
