@@ -45,7 +45,9 @@ flowchart TD
         Parallel --> T3["Table: Anime (Worker 3)"]
     end
     
-    T1 & T2 & T3 --> Merge["🗂️ Merge & Deduplicate Candidates"]
+    T1 --> Merge
+        T2 --> Merge
+        T3 --> Merge["🗂️ Merge & Deduplicate Candidates"]
     Merge --> Scorer["🎯 In-Memory Similarity Engine"]
     Scorer --> Bonus{"Year Match?"}
     Bonus -->|Yes| Boost["⭐ Apply Year Bonus (+0.08)"]
